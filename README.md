@@ -35,6 +35,8 @@ allows Docker run with the Virtual Machine of your choice on Windows.
 
 `192.168.99.100:4545`
 
+Enjoy Devless :)
+
 ## Using Microsoft Hyper-V
 
 * Ensure Hyper-V is enabled. Run the Powershell as administrator and type`n`enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All`
@@ -42,5 +44,3 @@ allows Docker run with the Virtual Machine of your choice on Windows.
 * If you have enabled Hyperv it is important you use an internal virtual switch. In Hyper-V Manager, create a Virtual Network Switch, pick type as internal and name it "Devless".
 
 * Finally in your System's Network Connections, open the properties of your active internet connection and share the connection with the "Devless" virtual network switch. This will make sure that the IP of the boot2docker VM never changes and it still has internet access.
-
-Enjoy Devless :)
