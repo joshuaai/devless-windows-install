@@ -28,6 +28,7 @@ allows Docker run with the Virtual Machine of your choice on Windows.
 `docker run -p 4545:80 eddymens/devless:latest`
 
 * Use the following command in a new tab to check the ip of the devless machine. The default is 192.168.99.100, but you should check.
+`docker-machine ls`
 
 * Run the address on your browser to access Devless
 `192.168.99.100:4545`
