@@ -7,8 +7,7 @@ allows Docker run with the Virtual Machine of your choice on Windows.
 
 * 64-bit Windows OS
 
-* Ensure you have a virtual machine installed. Get Oracle Virtual Box here. If you will like to use Microsoft Hyper-V as
-your VM, scroll to the end to see specific instructions for using Hyper-V.  
+* Ensure you have a virtual machine installed. Download [Oracle Virtual Box](https://www.virtualbox.org/wiki/Downloads). If you want to use Microsoft Hyper-V as your VM, scroll down to the end to see specific instructions for configuring Hyper-V.  
 
 ## Install
 
@@ -42,5 +41,3 @@ your VM, scroll to the end to see specific instructions for using Hyper-V.
 * Finally in your System's Network Connections, open the properties of your active internet connection and share the connection with the "Devless" virtual network switch. This will make sure that the IP of the boot2docker VM never changes and it still has internet access.
 
 Enjoy Devless :)
-
-
