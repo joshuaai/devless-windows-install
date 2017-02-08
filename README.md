@@ -39,7 +39,7 @@ Enjoy Devless :)
 
 ## Using Microsoft Hyper-V
 
-* Ensure Hyper-V is enabled. Run the Powershell as administrator and type`n`enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All`
+* Ensure Hyper-V is enabled. Run the Powershell as administrator and type `enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All`
 
 * If you have enabled Hyperv it is important you use an internal virtual switch. In Hyper-V Manager, create a Virtual Network Switch, pick type as internal and name it "Devless".
 
